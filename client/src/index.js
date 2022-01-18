@@ -18,3 +18,6 @@ ReactDOM.render(
   </Provider>,
   document.querySelector("#root")
 );
+console.log("This is the stripe key", process.env.REACT_APP_STRIPE_KEY);
+
+console.log("This is the production key", process.env.NODE_ENV);
